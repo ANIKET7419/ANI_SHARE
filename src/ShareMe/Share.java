@@ -272,8 +272,8 @@ class thread2 extends  Thread{
                     ioException.printStackTrace();
                 }
             }
-            JOptionPane.showMessageDialog(null,"There are some error !!!");
-                JOptionPane.showMessageDialog(null,"Connection is Closed , Can be reconnected");
+
+                JOptionPane.showMessageDialog(null,"There is some error and Connection is Closed , Can be reconnected");
 
 
         }
