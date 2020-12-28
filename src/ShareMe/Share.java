@@ -200,7 +200,7 @@ class thread2 extends  Thread{
         boolean flag=true;
         try {
              socket=new ServerSocket(3030);
-            JOptionPane.showMessageDialog(null," Listening ......");
+             JOptionPane.showMessageDialog(null," Listening ......");
              socket1=socket.accept();
             JOptionPane.showMessageDialog(null,"Accepted");
             InputStream stream=socket1.getInputStream();;
