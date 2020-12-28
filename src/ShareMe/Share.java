@@ -315,7 +315,7 @@ public class Share {
         receiver.setBounds(140,200,100,50);
         frame.add(sender);
         frame.add(receiver);
-        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
          JOptionPane.showMessageDialog(frame,"Note : Use reverse proxy tool or port forwarding if you face  connecting to receiver problem");
     }
